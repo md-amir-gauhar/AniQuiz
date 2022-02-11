@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #123;
+  --white: #fff;
+  --gray: #737373;
+  --black: #000;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+.header {
+  height: 15vh;
+  padding: 2rem;
+  background-color: rgb(13, 32, 52);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.logo img {
+  height: 100%;
+  width: 200px;
+  object-fit: contain;
+}
+
+.main {
+  margin-top: 1rem;
+}
+
+.heading {
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
+
+.sub-heading {
+  color: var(--gray);
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.categories-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.category {
+  background-color: transparent;
+  height: 250px;
+  width: 400px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, .5) 0px 0px 0.25em,
+    rgba(0, 0, 0, .5) 0px 0.25em 1em;
+  overflow: hidden;
+}
+
+.category img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  border-radius: 5px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+}
+
+.category img:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+.category-detail {
+  width: 100%;
+  padding: .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.category-detail h3 {
+  color: var(--white);
+  font-size: 1.25rem;
+}
+
+.category a {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: var(--black);
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: .5rem 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.category a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--white);
+}
