@@ -28,10 +28,9 @@ h1 {
 }
 
 .question {
-  margin: 0 0 0 0;
   height: 450px;
   padding: 1rem 0;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: var(--white);
 }
 
@@ -51,10 +50,10 @@ h1 {
 }
 
 .option {
-  width: 60%;
+  width: 50%;
   color: var(--white);
   background-color: transparent;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   padding: 1rem 0;
   margin-bottom: .5rem;
   border: 1px solid var(--gray);
