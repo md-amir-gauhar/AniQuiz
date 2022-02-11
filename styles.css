@@ -9,6 +9,10 @@
   --white: #fff;
   --gray: #737373;
   --black: #000;
+  --incorrect-color: rgb(196, 39, 39);
+  --correct-color: rgb(45, 199, 45);
+  --incorrect-color-light: rgb(253, 106, 106);
+  --correct-color-light: rgb(134, 240, 134);
 }
 
 html {
