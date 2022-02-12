@@ -7,6 +7,8 @@
 :root {
   --bg-color: #123;
   --white: #fff;
+  --white-light: #f7f7f7;
+  --gold: gold;
   --gray: #737373;
   --black: #000;
   --incorrect-color: rgb(196, 39, 39);
